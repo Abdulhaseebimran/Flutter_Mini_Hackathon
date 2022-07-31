@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908453874362",
+    "project_id": "jawan-hackathon",
+    "storage_bucket": "jawan-hackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908453874362:android:3f7c2a0a865eb24061d083",
+        "android_client_info": {
+          "package_name": "com.example.minihackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908453874362-lneqrgq9g33k2ofgrdba56m1s8m8sr3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH1HgoD9ahsGCNvUT97a2asgmupS6qI4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908453874362-lneqrgq9g33k2ofgrdba56m1s8m8sr3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
