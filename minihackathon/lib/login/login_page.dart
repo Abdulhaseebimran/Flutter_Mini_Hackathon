@@ -146,7 +146,8 @@ class _LoginState extends State<Login> {
               Image.asset("assets/images/loginvector1.png"),
             const SizedBox(height: 25,),
             Container(
-              height: MediaQuery.of(context).size.height*0.6,
+              height: MediaQuery.of(context).size.height*0.7,
+              width: MediaQuery.of(context).size.width * 0.8,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: const [
@@ -226,7 +227,12 @@ class _LoginState extends State<Login> {
                   minimumSize: const Size(200, 50),
                   maximumSize: const Size(200, 50),
                    ),
-                 onPressed: (){
+                 onPressed: () async{
+                   signInWithGoogle();
+                        Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => MyNavigationBar()));
                  }, child: const Text("Login with Google")),
                  const SizedBox(height: 5,),
                   TextButton(onPressed: (){
